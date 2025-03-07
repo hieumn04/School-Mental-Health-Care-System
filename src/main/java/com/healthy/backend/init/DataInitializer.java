@@ -6,13 +6,11 @@ import com.healthy.backend.enums.*;
 import com.healthy.backend.repository.*;
 import com.healthy.backend.service.AuthenticationService;
 import com.healthy.backend.service.GeneralService;
-import com.healthy.backend.service.PsychologistService;
 import com.healthy.backend.service.SurveyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import com.healthy.backend.data.MentalHealthArticlesData;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
